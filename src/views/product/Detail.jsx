@@ -59,7 +59,6 @@ class ProductDetailView extends Component {
                   className='border border-secondary mr-2' width='75'
                   alt='...'
                 />
-                <Video cloudName='dbmataac4' publicId='Baking_Cookies_Alt' width='350' height='350' controls='true' autoplay loop />
               </div>
               <div className='col-md-7'>
                 <h1 className='h5 d-inline mr-2'>

@@ -4,7 +4,7 @@ import { ReactComponent as IconStarFill } from 'bootstrap-icons/icons/star-fill.
 import { ReactComponent as IconTruckFill } from 'bootstrap-icons/icons/truck.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus, faHeart } from '@fortawesome/free-solid-svg-icons'
-import { Image, Video, Transformation, CloudinaryContext } from 'cloudinary-react'
+import VideoPlayerClass from '../../helpers/renderProductGallery'
 
 const CardProductList = (props) => {
   const product = props.data
@@ -13,7 +13,6 @@ const CardProductList = (props) => {
       <div className='row g-0'>
         <div className='col-md-3 text-center'>
           <img src={product.img} className='img-fluid' alt='...' />
-          <Image cloudName='dbmataac4' publicId='fruit-1534494_640' width='300' height='300' />
         </div>
         <div className='col-md-6'>
           <div className='card-body'>
@@ -21,6 +20,7 @@ const CardProductList = (props) => {
               <Link to={product.link} className='text-decoration-none'>
                 {product.name}
               </Link>
+
             </h6>
             {product.isNew && (
               <span className='badge bg-success mr-2'>New</span>

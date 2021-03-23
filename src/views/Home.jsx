@@ -66,45 +66,14 @@ class HomeView extends Component {
     return (
       <React.Fragment>
         <Banner className="mb-3" id="carouselHomeBanner" data={data.banner} />
-        <div className="container-fluid bg-light mb-3">
-          <div className="row g-3">
-            <div className="col-md-9">
-              <Carousel id="elect-product-category" className="mb-3">
-                {carouselContent}
-              </Carousel>
-              <Support />
-            </div>
-            <div className="col-md-3">
-              <CardLogin className="mb-3" />
-              <CardImage src="../../images/banner/Watches.webp" to="promo" />
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid bg-light mb-3">
-          <div className="row">
-            <div className="col-md-12">
-              <CardDealsOfTheDay
-                endDate={Date.now() + 1000 * 60 * 60 * 14}
-                title="Deals of the Day"
-                to="/"
-              >
-                <Carousel id="elect-product-category1">
-                  {carouselContent}
-                </Carousel>
-              </CardDealsOfTheDay>
-            </div>
-          </div>
-        </div>
 
-        <div className="bg-info bg-gradient p-3 text-center mb-3">
-          <h4 className="m-0">Explore Fashion Collection</h4>
-        </div>
+        
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <Link to="/" className="text-decoration-none">
+              <Link to="/category" className="text-decoration-none">
                 <img
-                  src="../../images/category/male.webp"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449232/workshop/pexels-the-lazy-artist-gallery-1300550.jpg"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -112,9 +81,9 @@ class HomeView extends Component {
               </Link>
             </div>
             <div className="col-md-3">
-              <Link to="/" className="text-decoration-none">
+              <Link to="/category" className="text-decoration-none">
                 <img
-                  src="../../images/category/female.webp"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449383/workshop/people-3142549_1280.jpg"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -122,24 +91,33 @@ class HomeView extends Component {
               </Link>
             </div>
             <div className="col-md-3">
-              <Link to="/" className="text-decoration-none">
+              <Link to="/category" className="text-decoration-none">
                 <img
-                  src="../../images/category/smartwatch.webp"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449255/workshop/pexels-lumn-322207.jpg"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
-                <div className="text-center h6">Smartwatch</div>
+                <div className="text-center h6">Accessories</div>
               </Link>
             </div>
             <div className="col-md-3">
-              <Link to="/" className="text-decoration-none">
+              <Link to="/category" className="text-decoration-none">
                 <img
-                  src="../../images/category/footwear.webp"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449724/workshop/pexels-jordan-hyde-1032110.jpg"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
                 <div className="text-center h6">Footwear</div>
               </Link>
+            </div>            
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+            <div style={{ float: 'right', lineHeight: '1.2em', fontSize: '28px', margin: 0, padding: 0, display: 'block', marginBlockStart: '0.83em', marginBlockEnd: '0.83em', marginInlineStart: '0em', marginInlineEnd: '0em', textAlign: 'left', letterSpacing: 0, margin: '0 0 0 40%', background: 'hsla(0,0%,100%,.75)' }}>
+
+<h3>Slow fashion is the new Fast Fashion</h3>
+<p>Sustainable. Practical. Perfect for working from home.</p>
+</div>
             </div>
           </div>
         </div>
