@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ReactComponent as IconStarFill } from 'bootstrap-icons/icons/star-fill.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartPlus, faHeart } from '@fortawesome/free-solid-svg-icons';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { ReactComponent as IconStarFill } from 'bootstrap-icons/icons/star-fill.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartPlus, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const CardProductGrid = (props) => {
   const product = props.data
@@ -67,6 +67,6 @@ const CardProductGrid = (props) => {
       </div>
     </div>
   )
-};
+}
 
 export default CardProductGrid

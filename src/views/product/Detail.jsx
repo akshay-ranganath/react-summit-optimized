@@ -9,7 +9,7 @@ import {
   faPlus
 } from '@fortawesome/free-solid-svg-icons'
 import { data } from '../../data'
-import { Image, Video, Transformation, CloudinaryContext } from 'cloudinary-react'
+import ProductGalleryClass from '../../helpers/renderProductGallery'
 const CardFeaturedProduct = lazy(() =>
   import('../../components/card/CardFeaturedProduct')
 )
@@ -39,26 +39,8 @@ class ProductDetailView extends Component {
           <div className='col-md-8'>
             <div className='row mb-3'>
               <div className='col-md-5 text-center'>
-                <img
-                  src='../../images/products/tshirt_red_480x400.webp'
-                  className='img-fluid mb-3'
-                  alt=''
-                />
-                <img
-                  src='../../images/products/tshirt_grey_480x400.webp'
-                  className='border border-secondary mr-2' width='75'
-                  alt='...'
-                />
-                <img
-                  src='../../images/products/tshirt_black_480x400.webp'
-                  className='border border-secondary mr-2' width='75'
-                  alt='...'
-                />
-                <img
-                  src='../../images/products/tshirt_green_480x400.webp'
-                  className='border border-secondary mr-2' width='75'
-                  alt='...'
-                />
+                <ProductGalleryClass />
+
               </div>
               <div className='col-md-7'>
                 <h1 className='h5 d-inline mr-2'>

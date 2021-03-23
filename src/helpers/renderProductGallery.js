@@ -1,31 +1,29 @@
 import React, { Component } from "react";
-import { Cloudinary } from "cloudinary-core";
 
-class VideoPlayerClass extends Component {
-    
-    cld = () => {        
-      return new Cloudinary({ cloud_name: this.props.options.cloudName, secure: true });
-    };
-    videoPlayerInit = () => {
-      const cld = this.cld();      
-      cld.videoPlayer("some-video", {
-        publicId: this.props.options.publicId,
-        fluid: true,
-        controls: true,
-        preload: "auto",
-        mute: true,
-        autoplay: false
-      })      
-    };
-    componentDidMount() {
-      this.videoPlayerInit();
-    }
-    render() {
-      return (
-        <>
-          <video id="some-video" />
-        </>
-      );
-    }
+
+class ProductGalleryClass extends Component {
+  myGallery= window.cloudinary.galleryWidget({
+    container: "#my-gallery",
+    cloudName: "dbmataac4",    
+    imageBreakpoint: 200 ,
+    dpr: 1 ,
+    mediaAssets: [
+      // by default mediaType: "image"
+      {tag: "sku001", mediaType: "video"},  
+      {tag: "sku001"},      
+    ]
+  });
+  
+  
+  componentDidMount() {
+    this.myGallery.render();
   }
-  export default VideoPlayerClass;
+  render() {
+    return (
+      <>
+        <div id="my-gallery"></div>
+      </>
+    );
+  }
+}
+export default ProductGalleryClass;

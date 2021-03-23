@@ -4,7 +4,6 @@ import { ReactComponent as IconStarFill } from 'bootstrap-icons/icons/star-fill.
 import { ReactComponent as IconTruckFill } from 'bootstrap-icons/icons/truck.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus, faHeart } from '@fortawesome/free-solid-svg-icons'
-import VideoPlayerClass from '../../helpers/renderProductGallery'
 
 const CardProductList = (props) => {
   const product = props.data
@@ -20,7 +19,6 @@ const CardProductList = (props) => {
               <Link to={product.link} className='text-decoration-none'>
                 {product.name}
               </Link>
-
             </h6>
             {product.isNew && (
               <span className='badge bg-success mr-2'>New</span>
@@ -43,7 +41,7 @@ const CardProductList = (props) => {
             </div>
             {product.description &&
               product.description.includes('|') === false && (
-                <p className='small mt-2'>{product.description}</p>
+              <p className='small mt-2'>{product.description}</p>
             )}
             {product.description && product.description.includes('|') && (
               <ul className='mt-2'>
