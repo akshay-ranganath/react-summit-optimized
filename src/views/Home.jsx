@@ -77,7 +77,7 @@ class HomeView extends Component {
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
-                <div className="text-center h6">Men's Clothing</div>
+                <div className="text-center h6 whitelink">Men's Clothing</div>
               </Link>
             </div>
             <div className="col-md-3">

@@ -14,3 +14,8 @@ video#bgvideo {
     background: url(placeholder.jpg) no-repeat;
     background-size: cover;
     }
+
+.whitelink {
+    color: white;
+    text-decoration: none;
+}  

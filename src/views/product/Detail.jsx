@@ -10,6 +10,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { data } from '../../data'
 import ProductGalleryClass from '../../helpers/renderProductGallery'
+import RenderGalleryWidget from '../../helpers/RenderGalleryWidget'
+
 const CardFeaturedProduct = lazy(() =>
   import('../../components/card/CardFeaturedProduct')
 )
@@ -39,7 +41,7 @@ class ProductDetailView extends Component {
           <div className='col-md-8'>
             <div className='row mb-3'>
               <div className='col-md-5 text-center'>
-                <ProductGalleryClass />
+                <RenderGalleryWidget />
 
               </div>
               <div className='col-md-7'>

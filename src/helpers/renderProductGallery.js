@@ -11,8 +11,9 @@ class ProductGalleryClass extends Component {
       // by default mediaType: "image"
       {tag: "sku001", mediaType: "video"},  
       {tag: "sku001"},      
-    ]
+    ]        
   });
+  
   
   
   componentDidMount() {
