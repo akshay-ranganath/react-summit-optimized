@@ -1,7 +1,7 @@
 import React, { lazy, Component } from "react";
 import { Link } from "react-router-dom";
 // import { link45, file, check2all } from "../npm/icon";
-import { data } from "../data";
+import { data, base_url } from "../data";
 import { ReactComponent as IconLaptop } from "bootstrap-icons/icons/laptop.svg";
 import { ReactComponent as IconHeadset } from "bootstrap-icons/icons/headset.svg";
 import { ReactComponent as IconPhone } from "bootstrap-icons/icons/phone.svg";
@@ -67,13 +67,12 @@ class HomeView extends Component {
       <React.Fragment>
         <Banner className="mb-3" id="carouselHomeBanner" data={data.banner} />
 
-        
         <div className="container">
           <div className="row">
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449232/workshop/pexels-the-lazy-artist-gallery-1300550.jpg"
+                  src={base_url + "pexels-the-lazy-artist-gallery-1300550.jpg"}
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -83,7 +82,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449383/workshop/people-3142549_1280.jpg"
+                  src={base_url + "people-3142549_1280.jpg"}
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -93,7 +92,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449255/workshop/pexels-lumn-322207.jpg"
+                  src={base_url + "pexels-lumn-322207.jpg"}
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -103,21 +102,37 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449724/workshop/pexels-jordan-hyde-1032110.jpg"
+                  src={base_url + "pexels-jordan-hyde-1032110.jpg"}
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
                 <div className="text-center h6">Footwear</div>
               </Link>
-            </div>            
+            </div>
           </div>
           <div className="row">
             <div className="col-md-12">
-            <div style={{ float: 'right', lineHeight: '1.2em', fontSize: '28px', margin: 0, padding: 0, display: 'block', marginBlockStart: '0.83em', marginBlockEnd: '0.83em', marginInlineStart: '0em', marginInlineEnd: '0em', textAlign: 'left', letterSpacing: 0, margin: '0 0 0 40%', background: 'hsla(0,0%,100%,.75)' }}>
-
-<h3>Slow fashion is the new Fast Fashion</h3>
-<p>Sustainable. Practical. Perfect for working from home.</p>
-</div>
+              <div
+                style={{
+                  float: "right",
+                  lineHeight: "1.2em",
+                  fontSize: "28px",
+                  margin: 0,
+                  padding: 0,
+                  display: "block",
+                  marginBlockStart: "0.83em",
+                  marginBlockEnd: "0.83em",
+                  marginInlineStart: "0em",
+                  marginInlineEnd: "0em",
+                  textAlign: "left",
+                  letterSpacing: 0,
+                  margin: "0 0 0 40%",
+                  background: "hsla(0,0%,100%,.75)",
+                }}
+              >
+                <h3>Slow fashion is the new Fast Fashion</h3>
+                <p>Sustainable. Practical. Perfect for working from home.</p>
+              </div>
             </div>
           </div>
         </div>
