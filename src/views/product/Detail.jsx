@@ -9,7 +9,6 @@ import {
   faPlus
 } from '@fortawesome/free-solid-svg-icons'
 import { data } from '../../data'
-import ProductGalleryClass from '../../helpers/renderProductGallery'
 import RenderGalleryWidget from '../../helpers/RenderGalleryWidget'
 
 const CardFeaturedProduct = lazy(() =>

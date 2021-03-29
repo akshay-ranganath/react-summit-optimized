@@ -10,16 +10,9 @@ import { ReactComponent as IconDisplay } from "bootstrap-icons/icons/display.svg
 import { ReactComponent as IconHdd } from "bootstrap-icons/icons/hdd.svg";
 import { ReactComponent as IconUpcScan } from "bootstrap-icons/icons/upc-scan.svg";
 import { ReactComponent as IconTools } from "bootstrap-icons/icons/tools.svg";
-
-const Support = lazy(() => import("../components/Support"));
 const Banner = lazy(() => import("../components/carousel/Banner"));
-const Carousel = lazy(() => import("../components/carousel/Carousel"));
 const CardIcon = lazy(() => import("../components/card/CardIcon"));
-const CardLogin = lazy(() => import("../components/card/CardLogin"));
-const CardImage = lazy(() => import("../components/card/CardImage"));
-const CardDealsOfTheDay = lazy(() =>
-  import("../components/card/CardDealsOfTheDay")
-);
+
 
 class HomeView extends Component {
   components = {
@@ -113,7 +106,7 @@ class HomeView extends Component {
           </div>
           <div className="row">
             <div className="col-md-12">
-            <div style={{ float: 'right', lineHeight: '1.2em', fontSize: '28px', margin: 0, padding: 0, display: 'block', marginBlockStart: '0.83em', marginBlockEnd: '0.83em', marginInlineStart: '0em', marginInlineEnd: '0em', textAlign: 'left', letterSpacing: 0, margin: '0 0 0 40%', background: 'hsla(0,0%,100%,.75)' }}>
+            <div style={{ float: 'right', lineHeight: '1.2em', fontSize: '28px', margin: 0, padding: 0, display: 'block', marginBlockStart: '0.83em', marginBlockEnd: '0.83em', marginInlineStart: '0em', marginInlineEnd: '0em', textAlign: 'left', letterSpacing: 0, background: 'hsla(0,0%,100%,.75)' }}>
 
 <h3>Slow fashion is the new Fast Fashion</h3>
 <p>Sustainable. Practical. Perfect for working from home.</p>

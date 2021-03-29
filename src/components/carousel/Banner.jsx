@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Video, Transformation, CloudinaryContext } from 'cloudinary-react'
+import { Video, CloudinaryContext } from 'cloudinary-react'
 import { Link } from 'react-router-dom'
 
 const Item = ({ item, index }) => (
