@@ -59,6 +59,6 @@ video#bgvideo {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(https://res.cloudinary.com/dbmataac4/video/upload/v1616437188/workshop/hero_video.jpg) no-repeat;
+  background: url(https://res.cloudinary.com/dbmataac4/video/upload/f_auto,q_auto/workshop/hero_video.jpg) no-repeat;
   background-size: cover;
   }
