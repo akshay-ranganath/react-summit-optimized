@@ -11,7 +11,7 @@ const CardProductList = (props) => {
     <div className='card'>
       <div className='row g-0'>
         <div className='col-md-3 text-center'>
-          <img src={product.img} className='img-fluid' alt='...' />
+          <img src={product.img} className='img-fluid' alt='...' width='310' height='410' />
         </div>
         <div className='col-md-6'>
           <div className='card-body'>
@@ -41,7 +41,7 @@ const CardProductList = (props) => {
             </div>
             {product.description &&
               product.description.includes('|') === false && (
-              <p className='small mt-2'>{product.description}</p>
+                <p className='small mt-2'>{product.description}</p>
             )}
             {product.description && product.description.includes('|') && (
               <ul className='mt-2'>

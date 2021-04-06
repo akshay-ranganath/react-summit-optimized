@@ -22,7 +22,7 @@ const Header = () => {
               <Link to='/'>
                 <img
                   alt='logo'
-                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_quto,c_scale,w_/workshop/logo.webp'
+                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/logo'
                   width='160'
                   height='50'
                 />
@@ -100,7 +100,7 @@ const Header = () => {
                 rel='noopener noreferrer'
               >
                 <img
-                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_120,c_scale/workshop/default-yellow.png'
+                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_120,c_scale/workshop/default-yellow'
                   alt='BuyMeACoffee' width='120' height='34'
                 />
               </a>

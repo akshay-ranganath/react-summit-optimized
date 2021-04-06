@@ -61,7 +61,7 @@ class ProductListView extends Component {
         <div
           className="p-5 bg-primary bs-cover"
           style={{
-            backgroundImage: "url(https://res.cloudinary.com/dbmataac4/image/upload/v1616449383/workshop/people-3142549_1280.jpg)",
+            backgroundImage: "url(https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/people-3142549_1280.jpg)",
           }}
         >
           <div className="container text-center">
