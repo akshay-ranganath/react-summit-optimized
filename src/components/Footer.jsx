@@ -201,43 +201,43 @@ const Footer = () => {
             </div>
             <div className='col-md-3 py-2 bg-white'>
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/american_express'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/american_express'
                 width='32' height='32'
                 alt='American Express'
                 className='mr-2'
               />
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/maestro'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/maestro'
                 width='32' height='32'
                 alt='Maestro'
                 className='mr-2'
               />
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/netbanking'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/netbanking'
                 width='32' height='32'
                 alt='Net Banking'
                 className='mr-2'
               />
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/paypal'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/paypal'
                 width='32' height='32'
                 alt='Paypal'
                 className='mr-2'
               />
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/rupay'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/rupay'
                 width='32' height='32'
                 alt='Rupay'
                 className='mr-2'
               />
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/upi'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/upi'
                 width='32' height='32'
                 alt='UPI'
                 className='mr-2'
               />
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/visa'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/payment/visa'
                 width='32' height='32'
                 alt='Visa'
                 className='mr-2'
