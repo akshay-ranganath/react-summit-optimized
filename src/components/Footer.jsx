@@ -237,7 +237,7 @@ const Footer = () => {
                 className='mr-2'
               />
               <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/payment/visa'
+                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/visa'
                 width='32' height='32'
                 alt='Visa'
                 className='mr-2'
