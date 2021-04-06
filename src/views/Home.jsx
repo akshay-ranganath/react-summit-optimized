@@ -66,9 +66,9 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449232/workshop/pexels-the-lazy-artist-gallery-1300550.jpg"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/pexels-the-lazy-artist-gallery-1300550.jpg"
                   className="img-fluid rounded-circle"
-                  alt="..."
+                  alt="..." width="350" height="250"
                 />
                 <div className="text-center h6 whitelink">Men's Clothing</div>
               </Link>
@@ -76,9 +76,9 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449383/workshop/people-3142549_1280.jpg"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/people-3142549_1280.jpg"
                   className="img-fluid rounded-circle"
-                  alt="..."
+                  alt="..." width="350" height="250"
                 />
                 <div className="text-center h6">Women's Clothing</div>
               </Link>
@@ -86,9 +86,9 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449255/workshop/pexels-lumn-322207.jpg"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/pexels-lumn-322207.jpg"
                   className="img-fluid rounded-circle"
-                  alt="..."
+                  alt="..." width="350" height="250"
                 />
                 <div className="text-center h6">Accessories</div>
               </Link>
@@ -96,9 +96,9 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/v1616449724/workshop/pexels-jordan-hyde-1032110.jpg"
+                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/pexels-jordan-hyde-1032110.jpg"
                   className="img-fluid rounded-circle"
-                  alt="..."
+                  alt="..." width="350" height="250"
                 />
                 <div className="text-center h6">Footwear</div>
               </Link>
