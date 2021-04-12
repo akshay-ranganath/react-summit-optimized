@@ -1,12 +1,12 @@
 import React from 'react'
-import { Video, CloudinaryContext, Transformation } from 'cloudinary-react'
 import { Link } from 'react-router-dom'
+import { CloudinaryContext, Video, Transformation } from 'cloudinary-react'
 
 const Item = ({ item, index }) => (
   <div className={`carousel-item ${index === 0 ? 'active' : ''}`}>
     <CloudinaryContext cloudName='dbmataac4'>
-      <Video publicId='workshop/hero_video' id='bgvideo' muted autoPlay loop playsInline>
-        <Transformation quality='auto' format='auto' />
+      <Video publicId='workshop/hero_video' id='bgvideo' muted autoPlay loop playsInline>>
+        <Transformation quality='auto' />
       </Video>
     </CloudinaryContext>
   </div>

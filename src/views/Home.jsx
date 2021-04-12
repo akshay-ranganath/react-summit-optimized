@@ -66,7 +66,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/pexels-the-lazy-artist-gallery-1300550.jpg"
+                  src="http://react-workshop.mo.cloudinary.net/home/pexels-the-lazy-artist-gallery-1300550"
                   className="img-fluid rounded-circle"
                   alt="..." width="350" height="250"
                 />
@@ -76,7 +76,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/people-3142549_1280.jpg"
+                  src="http://react-workshop.mo.cloudinary.net/home/people-3142549_1280"
                   className="img-fluid rounded-circle"
                   alt="..." width="350" height="250"
                 />
@@ -86,7 +86,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/pexels-lumn-322207.jpg"
+                  src="http://react-workshop.mo.cloudinary.net/home/pexels-lumn-322207"
                   className="img-fluid rounded-circle"
                   alt="..." width="350" height="250"
                 />
@@ -96,7 +96,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/c_fill,w_350,g_auto,f_auto,q_auto/workshop/pexels-jordan-hyde-1032110.jpg"
+                  src="http://react-workshop.mo.cloudinary.net/home/pexels-jordan-hyde-1032110"
                   className="img-fluid rounded-circle"
                   alt="..." width="350" height="250"
                 />
