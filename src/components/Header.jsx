@@ -22,7 +22,7 @@ const Header = () => {
               <Link to='/'>
                 <img
                   alt='logo'
-                  src='http://react-workshop.mo.cloudinary.net/logo'
+                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/logo'
                   width='160'
                   height='50'
                 />
@@ -100,7 +100,7 @@ const Header = () => {
                 rel='noopener noreferrer'
               >
                 <img
-                  src='http://react-workshop.mo.cloudinary.net/default-yellow'
+                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/default-yellow'
                   alt='BuyMeACoffee' width='120' height='34'
                 />
               </a>

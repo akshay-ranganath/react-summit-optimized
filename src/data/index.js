@@ -2,13 +2,13 @@ export const data = {
   banner: [
     {
       to: '/link',
-      img: 'https://react-workshop.mo.cloudinary.net/banner/cldnry_fashion_pdp_basic_tee6.jpg',
+      img: 'https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/banner/cldnry_fashion_pdp_basic_tee6.jpg',
       title: 'First slide label',
       description: 'Nulla vitae elit libero, a pharetra augue mollis interdum'
     },
     {
       to: '/link',
-      img: 'https://react-workshop.mo.cloudinary.net/banner/cldnry_fashion_pdp_basic_tee6.jpg',
+      img: 'https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/banner/cldnry_fashion_pdp_basic_tee6.jpg',
       title: 'Second slide label',
       description: 'Slo Fashion filler'
     }
@@ -85,7 +85,7 @@ export const data = {
       sku: 'FAS-01',
       link: '/product/detail',
       name: 'Great product name goes here',
-      img: 'https://react-workshop.mo.cloudinary.net/cldnry_fashion_pdp_basic_tee6.jpg',
+      img: 'https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/cldnry_fashion_pdp_basic_tee6.jpg',
       price: 180,
       originPrice: 200,
       discountPrice: 20,
@@ -102,7 +102,7 @@ export const data = {
       sku: 'FAS-02',
       link: '/product/detail',
       name: 'Great product name goes here',
-      img: 'https://react-workshop.mo.cloudinary.net/cldnry_fashion_pdp_basic_tee5.jpg',
+      img: 'https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/cldnry_fashion_pdp_basic_tee5.jpg',
       price: 475,
       originPrice: 0,
       discountPrice: 0,
@@ -119,7 +119,7 @@ export const data = {
       sku: 'FAS-03',
       link: '/product/detail',
       name: 'Great product name goes here',
-      img: 'https://react-workshop.mo.cloudinary.net/cldnry_fashion_pdp_basic_tee4.jpg',
+      img: 'https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/cldnry_fashion_pdp_basic_tee4.jpg',
       price: 1900,
       originPrice: 2000,
       discountPrice: 100,
@@ -136,7 +136,7 @@ export const data = {
       sku: 'FAS-04',
       link: '/product/detail',
       name: 'Great product name goes here',
-      img: 'https://react-workshop.mo.cloudinary.net/cldnry_fashion_pdp_basic_tee1.jpg',
+      img: 'https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/cldnry_fashion_pdp_basic_tee1.jpg',
       price: 10,
       originPrice: 0,
       discountPrice: 0,
@@ -153,7 +153,7 @@ export const data = {
       sku: 'FAS-05',
       link: '/product/detail',
       name: 'Great book goes here',
-      img: 'https://react-workshop.mo.cloudinary.net/cldnry_fashion_pdp_basic_tee5.jpg',
+      img: 'https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/cldnry_fashion_pdp_basic_tee5.jpg',
       price: 10,
       originPrice: 15,
       discountPrice: 12,
