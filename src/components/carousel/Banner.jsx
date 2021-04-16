@@ -5,7 +5,7 @@ import { CloudinaryContext, Video, Transformation } from 'cloudinary-react'
 const Item = ({ item, index }) => (
   <div className={`carousel-item ${index === 0 ? 'active' : ''}`}>
     <CloudinaryContext cloudName='dbmataac4'>
-      <Video publicId='workshop/hero_video' id='bgvideo' muted autoPlay loop playsInline>>
+      <Video publicId='workshop/hero_video' poster='https://res.cloudinary.com/dbmataac4/video/upload/f_auto,q_auto/v1/workshop/hero_video.jpg' id='bgvideo' muted autoPlay loop playsInline>
         <Transformation quality='auto' />
       </Video>
     </CloudinaryContext>

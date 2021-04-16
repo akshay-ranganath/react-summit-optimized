@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Image, Transformation } from 'cloudinary-react'
 import { ReactComponent as IconTelephone } from 'bootstrap-icons/icons/telephone.svg'
 import { ReactComponent as IconEnvelope } from 'bootstrap-icons/icons/envelope.svg'
 import { ReactComponent as IconBriefcase } from 'bootstrap-icons/icons/briefcase.svg'
@@ -200,48 +201,33 @@ const Footer = () => {
               © 2009-{new Date().getFullYear()} React-E-Commerce.com
             </div>
             <div className='col-md-3 py-2 bg-white'>
-              <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/american_express'
-                width='32' height='32'
-                alt='American Express'
-                className='mr-2'
-              />
-              <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/maestro'
-                width='32' height='32'
-                alt='Maestro'
-                className='mr-2'
-              />
-              <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/netbanking'
-                width='32' height='32'
-                alt='Net Banking'
-                className='mr-2'
-              />
-              <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/paypal'
-                width='32' height='32'
-                alt='Paypal'
-                className='mr-2'
-              />
-              <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/rupay'
-                width='32' height='32'
-                alt='Rupay'
-                className='mr-2'
-              />
-              <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/upi'
-                width='32' height='32'
-                alt='UPI'
-                className='mr-2'
-              />
-              <img
-                src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_32,c_scale/workshop/payment/visa'
-                width='32' height='32'
-                alt='Visa'
-                className='mr-2'
-              />
+              <Image cloudName='dbmataac4' publicId='workshop/payment/american_express' american_express width='32' height='32' alt='American Express' className='mr-2'>
+                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+              </Image>
+
+              <Image cloudName='dbmataac4' publicId='workshop/payment/maestro' width='32' height='32' alt='Maestro' className='mr-2'>
+                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+              </Image>
+
+              <Image cloudName='dbmataac4' publicId='workshop/payment/netbanking' width='32' height='32' alt='Net Banking' className='mr-2'>
+                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+              </Image>
+
+              <Image cloudName='dbmataac4' publicId='workshop/payment/paypal' width='32' height='32' alt='PayPal' className='mr-2'>
+                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+              </Image>
+
+              <Image cloudName='dbmataac4' publicId='workshop/payment/rupay' width='32' height='32' alt='RU Pay' className='mr-2'>
+                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+              </Image>
+
+              <Image cloudName='dbmataac4' publicId='workshop/payment/upi' width='32' height='32' alt='UPI' className='mr-2'>
+                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+              </Image>
+
+              <Image cloudName='dbmataac4' publicId='workshop/payment/visa' width='32' height='32' alt='Visa' className='mr-2'>
+                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+              </Image>
             </div>
           </div>
         </div>

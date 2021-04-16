@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Image, Transformation } from 'cloudinary-react'
 import Search from './Search'
 import { ReactComponent as IconCart3 } from 'bootstrap-icons/icons/cart3.svg'
 import { ReactComponent as IconPersonBadgeFill } from 'bootstrap-icons/icons/person-badge-fill.svg'
@@ -20,12 +21,9 @@ const Header = () => {
           <div className='row g-3'>
             <div className='col-md-3 text-center'>
               <Link to='/'>
-                <img
-                  alt='logo'
-                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/logo'
-                  width='160'
-                  height='50'
-                />
+                <Image cloudName='dbmataac4' publicId='workshop/logo' width='160' height='50' alt='Logo'>
+                  <Transformation format='auto' quality='auto' />
+                </Image>
               </Link>
             </div>
             <div className='col-md-5'>
@@ -99,10 +97,9 @@ const Header = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <img
-                  src='https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto/workshop/default-yellow'
-                  alt='BuyMeACoffee' width='120' height='34'
-                />
+                <Image cloudName='dbmataac4' publicId='workshop/default-yellow' width='160' height='50' alt='Buy Me Coffe'>
+                  <Transformation format='auto' quality='auto' />
+                </Image>
               </a>
               {/* <Link to="/account/signin">Sign In</Link> |{" "}
               <Link to="/account/signup"> Sign Up</Link> */}

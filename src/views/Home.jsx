@@ -1,5 +1,6 @@
 import React, { lazy, Component } from "react";
 import { Link } from "react-router-dom";
+import { Image, Transformation } from 'cloudinary-react'
 // import { link45, file, check2all } from "../npm/icon";
 import { data } from "../data";
 import { ReactComponent as IconLaptop } from "bootstrap-icons/icons/laptop.svg";
@@ -60,57 +61,50 @@ class HomeView extends Component {
       <React.Fragment>
         <Banner className="mb-3" id="carouselHomeBanner" data={data.banner} />
 
-        
+
         <div className="container">
           <div className="row">
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
-                <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_350,h_250,c_fill/workshop/pexels-the-lazy-artist-gallery-1300550.jpg"
-                  className="img-fluid rounded-circle"
-                  alt="..." width="350" height="250"
-                />
+                <Image cloudName="dbmataac4" publicId="workshop/pexels-the-lazy-artist-gallery-1300550" width="350" height="250" className="img-fluid rounded-circle">
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                </Image>
                 <div className="text-center h6 whitelink">Men's Clothing</div>
               </Link>
             </div>
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
-                <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_350,h_250,c_fill/workshop/people-3142549_1280.jpg"
-                  className="img-fluid rounded-circle"
-                  alt="..." width="350" height="250"
-                />
+                <Image cloudName="dbmataac4" publicId="workshop/people-3142549_1280" width="350" height="250" className="img-fluid rounded-circle">
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                </Image>
                 <div className="text-center h6">Women's Clothing</div>
               </Link>
             </div>
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
-                <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_350,h_250,c_fill/workshop/pexels-lumn-322207"
-                  className="img-fluid rounded-circle"
-                  alt="..." width="350" height="250"
-                />
+                <Image cloudName="dbmataac4" publicId="workshop/pexels-lumn-322207" width="350" height="250" className="img-fluid rounded-circle">
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                </Image>
+
                 <div className="text-center h6">Accessories</div>
               </Link>
             </div>
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
-                <img
-                  src="https://res.cloudinary.com/dbmataac4/image/upload/f_auto,q_auto,w_350,h_250,c_fill/workshop/pexels-jordan-hyde-1032110"
-                  className="img-fluid rounded-circle"
-                  alt="..." width="350" height="250"
-                />
+                <Image cloudName="dbmataac4" publicId="workshop/pexels-jordan-hyde-1032110" width="350" height="250" className="img-fluid rounded-circle">
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                </Image>
                 <div className="text-center h6">Footwear</div>
               </Link>
-            </div>            
+            </div>
           </div>
           <div className="row">
             <div className="col-md-12">
-            <div style={{ float: 'right', lineHeight: '1.2em', fontSize: '28px', margin: 0, padding: 0, display: 'block', marginBlockStart: '0.83em', marginBlockEnd: '0.83em', marginInlineStart: '0em', marginInlineEnd: '0em', textAlign: 'left', letterSpacing: 0, background: 'hsla(0,0%,100%,.75)' }}>
+              <div style={{ float: 'right', lineHeight: '1.2em', fontSize: '28px', margin: 0, padding: 0, display: 'block', marginBlockStart: '0.83em', marginBlockEnd: '0.83em', marginInlineStart: '0em', marginInlineEnd: '0em', textAlign: 'left', letterSpacing: 0, background: 'hsla(0,0%,100%,.75)' }}>
 
-<h3>Slow fashion is the new Fast Fashion</h3>
-<p>Sustainable. Practical. Perfect for working from home.</p>
-</div>
+                <h3>Slow fashion is the new Fast Fashion</h3>
+                <p>Sustainable. Practical. Perfect for working from home.</p>
+              </div>
             </div>
           </div>
         </div>
