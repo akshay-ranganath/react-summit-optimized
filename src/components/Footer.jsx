@@ -202,31 +202,31 @@ const Footer = () => {
             </div>
             <div className='col-md-3 py-2 bg-white'>
               <Image cloudName='dbmataac4' publicId='workshop/payment/american_express' american_express width='32' height='32' alt='American Express' className='mr-2'>
-                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+                <Transformation fetchFormat='auto' quality='auto' width='32' height='32' crop='scale' />
               </Image>
 
               <Image cloudName='dbmataac4' publicId='workshop/payment/maestro' width='32' height='32' alt='Maestro' className='mr-2'>
-                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+                <Transformation fetchFormat='auto' quality='auto' width='32' height='32' crop='scale' />
               </Image>
 
               <Image cloudName='dbmataac4' publicId='workshop/payment/netbanking' width='32' height='32' alt='Net Banking' className='mr-2'>
-                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+                <Transformation fetchFormat='auto' quality='auto' width='32' height='32' crop='scale' />
               </Image>
 
               <Image cloudName='dbmataac4' publicId='workshop/payment/paypal' width='32' height='32' alt='PayPal' className='mr-2'>
-                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+                <Transformation fetchFormat='auto' quality='auto' width='32' height='32' crop='scale' />
               </Image>
 
               <Image cloudName='dbmataac4' publicId='workshop/payment/rupay' width='32' height='32' alt='RU Pay' className='mr-2'>
-                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+                <Transformation fetchFormat='auto' quality='auto' width='32' height='32' crop='scale' />
               </Image>
 
               <Image cloudName='dbmataac4' publicId='workshop/payment/upi' width='32' height='32' alt='UPI' className='mr-2'>
-                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+                <Transformation fetchFormat='auto' quality='auto' width='32' height='32' crop='scale' />
               </Image>
 
               <Image cloudName='dbmataac4' publicId='workshop/payment/visa' width='32' height='32' alt='Visa' className='mr-2'>
-                <Transformation format='auto' quality='auto' width='32' height='32' crop='scale' />
+                <Transformation fetchFormat='auto' quality='auto' width='32' height='32' crop='scale' />
               </Image>
             </div>
           </div>

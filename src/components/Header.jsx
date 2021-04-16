@@ -22,7 +22,7 @@ const Header = () => {
             <div className='col-md-3 text-center'>
               <Link to='/'>
                 <Image cloudName='dbmataac4' publicId='workshop/logo' width='160' height='50' alt='Logo'>
-                  <Transformation format='auto' quality='auto' />
+                  <Transformation fetchFormat='auto' quality='auto' />
                 </Image>
               </Link>
             </div>
@@ -98,7 +98,7 @@ const Header = () => {
                 rel='noopener noreferrer'
               >
                 <Image cloudName='dbmataac4' publicId='workshop/default-yellow' width='160' height='50' alt='Buy Me Coffe'>
-                  <Transformation format='auto' quality='auto' />
+                  <Transformation fetchFormat='auto' quality='auto' />
                 </Image>
               </a>
               {/* <Link to="/account/signin">Sign In</Link> |{" "}

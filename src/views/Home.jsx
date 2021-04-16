@@ -67,7 +67,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <Image cloudName="dbmataac4" publicId="workshop/pexels-the-lazy-artist-gallery-1300550" width="350" height="250" className="img-fluid rounded-circle">
-                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" fetchFormat="auto"></Transformation>
                 </Image>
                 <div className="text-center h6 whitelink">Men's Clothing</div>
               </Link>
@@ -75,7 +75,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <Image cloudName="dbmataac4" publicId="workshop/people-3142549_1280" width="350" height="250" className="img-fluid rounded-circle">
-                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" fetchFormat="auto"></Transformation>
                 </Image>
                 <div className="text-center h6">Women's Clothing</div>
               </Link>
@@ -83,7 +83,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <Image cloudName="dbmataac4" publicId="workshop/pexels-lumn-322207" width="350" height="250" className="img-fluid rounded-circle">
-                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" fetchFormat="auto"></Transformation>
                 </Image>
 
                 <div className="text-center h6">Accessories</div>
@@ -92,7 +92,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/category" className="text-decoration-none">
                 <Image cloudName="dbmataac4" publicId="workshop/pexels-jordan-hyde-1032110" width="350" height="250" className="img-fluid rounded-circle">
-                  <Transformation widht="350" height="250" crop="fill" quality="auto" format="auto"></Transformation>
+                  <Transformation widht="350" height="250" crop="fill" quality="auto" fetchFormat="auto"></Transformation>
                 </Image>
                 <div className="text-center h6">Footwear</div>
               </Link>
