@@ -1,74 +1,43 @@
-<p align="center">
-  <a href="https://e-commerce-template.surge.sh/">
-    <img src="public/images/rb_logo.png" alt="RBE logo" target="_blank" width="200" height="165">
-  </a>
-</p>
-<h3 align="center">E-Commerce Template</h3>
+<h3 align="center">E-Commerce Optimized</h3>
 
-<p align="center">
- Built with React JS, Bootstrap 5
-  <br>
-  <a href="https://e-commerce-template.surge.sh/" target="_blank"><strong>Demo »</strong></a>
-  <br>
-  <br>
-
-## E-Commerce Template
-
-Built with React JS and Bootstrap 5
+A simple E-Commerce website with optimized media using [Cloudinary](https://clouidnary.com). This repo was built using the [E-Commerce-Template](https://github.com/bhaumikpatel/E-Commerce-Template).
 
 ## Table of contents
 
-- [Quick start](#quick-start)
-- [Buy Me A Coffee](#buy-me-a-coffee)
-- [What's included](#whats-included)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
+- [Installation](#installation)
+- [Details](#details)
+- [Try More](#try-more)
+- [References](#references)
 
-## Quick start
+### Installation
 
-Several quick start options are available:
+Download the application from Git and install the dependencies.
 
-- [Download the latest branch](https://github.com/bhaumikpatel/E-Commerce-Template)
-- Clone the repo: `git clone https://github.com/bhaumikpatel/E-Commerce-Template.git`
-- Install with [npm](https://www.npmjs.com/): `npm install`
-- Runs the app in the development mode `npm start`
-- Builds the app for production to the `build` folder `npm run build`
+```
+git clone https://github.com/akshay-ranganath/react-summit-optimized
+cd react-summit-optimized
+npm install (or yarn install)
+npm start (or yarn start)
+```
 
-## Buy Me A Coffee
+### Details
 
-[![BuyMeACoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/bhaumik)
+This application was developed as a _hands-on_ template for our [React Summit](https://remote.reactsummit.com/workshops-3h) workshop titled [Faster Media=Faster Websites!](#). Here's the objective as provided on the react website.
 
-## What's included
+>As eCommerce all around the world has shifted to a predominantly online-first platform the need to provide a high performance website to your users has significantly increased. And on top of that, google has announced that as of May 2021 Core Web Vitals will have a direct impact on page rankings and SEO making web performance even more significant. Come learn the basics of web performance and how it relates to media. Using a simple React based ecommerce app in conjunction with a media optimizing product, you can learn how to deliver the optimal format and fidelity, potentially improving your page rankings.
 
-- Sign Up
-- Sign In
-- Forgot Password
-- Home Page
-- Product List (List/Grid View)
-- Product Detail
-- Cart
-- Checkout
-- My Account (Change Password, Setting, Saved Card)
-- Star Zone Page
-- Orders
-- Wishlist's
-- Notification
-- Support
-- Contact Us
-- Blog
-- Blog Detail Page
-- Error Page (404, 500)
+We will link our presentation once the workshop is complete.
 
-## Thanks
+### Try More
 
-<a href="https://www.getbootstrap.com/" title="Bootstrap" target="_blank">
-  <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap Logo" width="200" height="150">
-</a>
-<a href="https://reactjs.org/" title="React JS" target="_blank"><img src="https://reactjs.org/logo-180x180.png" alt="React Logo" width="180" height="180">
-</a>
-<a href="https://fontawesome.com/" title="Font Awesome" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Font_Awesome_5_logo_black.svg" alt="Font Awesome Logo" width="180" height="180">
-</a>
+As part of the training, we cover a lot of options on using Cloudinary. We have pulled out the different features that a typical developer faces and shared it as a simple to try [Code Sandbox](https://codesandbox.io/s/cloudinary-react-summit-inzh3). 
 
-## Copyright and license
+### References
 
-Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+We're sharing a few more links to learn about Web Perf and Cloudinary:
+
+* [Web Vitals](https://web.dev/vitals/)
+* [Performance Budgets](https://timkadlec.com/2014/11/performance-budget-metrics/)
+* [Cloudinary React SDK](https://cloudinary.com/documentation/react_integration)
+* [Cloudinary documentation](https://cloudinary.com/documentation)
+* [Boosting media performance on a budget](https://www.smashingmagazine.com/2021/03/boost-media-performance/)
